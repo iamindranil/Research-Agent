@@ -1,0 +1,28 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Generated research reports
+research_report_*.md
+
+# Build, test, and tooling artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
